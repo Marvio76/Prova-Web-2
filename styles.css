@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: blue;
+    display: flex;
+    justify-content: end;
+    padding: 20px 0;
+}
+nav ul li{
+    display: inline-block;
+    font-weight: bolder;
+}
+nav ul li a {
+    padding: 20px;
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Define a cor branca para o link */
+    font-size: 18px;
+    font-family: Verdana;
+}
+.icones img{
+    text-align: end;
+}
+h1{
+    color: blue;
+    
+}
+.home{
+    padding: 0;
+    color: white;
+}
+.flex{
+    display: flex;
+    gap: 300px;
+}
+.descrition h1{
+    font-size:40px;
+    margin-top: 20px;
+}
+.icones{
+    background-color: aqua;
+    padding-bottom: 20px;
+}
+#Usuario{
+    margin-top: -20px;
+    margin-left: 160px;
+}
+/* formulario */
+.teste{
+    width: 30%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-group1 input{
+    width: 40%;
+    padding: 10px;
+}
+.form-group1 {
+    margin-bottom: 10px;
+}
